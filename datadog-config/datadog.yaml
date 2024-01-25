@@ -1,1 +1,12 @@
-api
+api_key: <<key>>
+site: datadoghq.com
+log_enabled: true
+
+# BEGIN LD PRELOAD CONFIG
+apm_config:
+  receiver_socket: /opt/datadog/apm/inject/run/apm.socket
+use_dogstatsd: true
+dogstatsd_socket: /opt/datadog/apm/inject/run/dsd.socket
+remote_configuration:
+  enabled: true
+# END LD PRELOAD CONFIG
