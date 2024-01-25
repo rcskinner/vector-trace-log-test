@@ -1,0 +1,8 @@
+init_config:
+instances:
+logs:
+  - type: file
+    path: "/home/ec2-user/example.log"
+    service: "flask-test"
+    source: python
+    sourcecategory: sourcecode
