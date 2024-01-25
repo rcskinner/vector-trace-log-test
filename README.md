@@ -8,3 +8,10 @@ Main Directories:
     - Datadog APM Autoinstrumentation
     - TraceID / Log Correlation with Python applications
 3. `vector-config`: Configuration file for a Vector Aggregator to process the log files prior to sending
+
+
+### Set Up Instructions
+1. Install git on Amazon Linux 
+2. Git clone https://github.com/rcskinner/vector-trace-log-test.git
+3. Install Datadog Agent - Amazon Linux 
+4. Update the API key in /vector-trace-log-test/datadog.yaml
